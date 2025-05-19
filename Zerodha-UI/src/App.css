@@ -1,0 +1,119 @@
+li {
+    text-decoration: none;
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    opacity: 0.95;
+}
+
+.btn,
+li {
+    opacity: 0.8;
+}
+
+.navbar-lists a {
+    font-size: 0.9rem;
+    margin-left: 1.2rem;
+    font-weight: 600;
+}
+
+.footer-para {
+    p {
+        font-size: 0.7rem;
+        font-weight: 600;
+        opacity: 0.6;
+
+        a {
+            opacity: 1;
+            text-decoration: none;
+            color: blue;
+        }
+    }
+}
+
+.footer-para p a:hover {
+    opacity: 1;
+    color: black
+}
+
+p,
+a {
+    opacity: 0.6;
+}
+
+.opacity-one {
+    opacity: 1 !important
+}
+
+.btn-footer {
+    text-decoration: none;
+    font-size: 0.80rem;
+    font-weight: 600;
+    color: black;
+    opacity: 0.7;
+    padding: 0.5rem;
+}
+
+.charges-table th,
+.charges-table td {
+    font-size: 0.9rem;
+    padding: 1rem;
+}
+
+.charges-table th {
+    font-weight: 600;
+    opacity: 0.8;
+}
+
+.charges-table text {
+    opacity: 0.7;
+}
+
+.charges-table td p {
+    opacity: 1 !important;
+    text-transform: uppercase;
+    font-size: 11px;
+    font-weight: 500;
+    color: #fff;
+    background: #4caf50;
+    padding: 4px 10px;
+    border-radius: 2px;
+    width: fit-content;
+}
+
+.charges-table td li {
+    opacity: 1;
+    text-decoration: dotted;
+    list-style: disc;
+}
+
+.charges-table tbody tr:nth-child(even) {
+    background-color: #fbfbfb;
+    /* Light gray */
+}
+
+.charges-table tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+    /* White */
+}
+
+.charges-explained .head {
+    font-weight: 500;
+    font-size: 1rem;
+    opacity: 0.9;
+}
+.charges-explained p, li {
+    opacity: 0.7;
+    font-size: .85rem;
+    line-height: 2;
+}
+
+.charges-explained li {
+    text-decoration: dotted;
+    list-style: disc;
+}
